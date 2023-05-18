@@ -1,0 +1,32 @@
+div{
+	width:50px;
+	height:50px;
+	position:relative;
+    animation:block1 2s infinite easy-in-out;
+}
+span{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:0;
+	left:0;
+	border: 4px solid #0B1B48;
+}
+
+.d1{
+	 animation:block2 2s infinite ease-in-out;
+}
+.d2{
+	 animation:block3 2s infinite ease-in-out;
+}
+.d3{
+	 animation:block4 2s infinite ease-in-out;
+}
+.d4{
+	 animation:block5 2s infinite ease-in-out;
+}
+@keyframes block1{
+	0%{transform:rotate(-45deg)}
+	50%{transform:rotate:( );}
+	100%{}
+}
